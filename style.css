@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;800&family=Fira+Sans:wght@200;800&family=Gothic+A1:wght@500&family=Krona+One&family=Open+Sans:wght@300&family=Tilt+Neon&family=Varela+Round&family=Ysabeau+Office:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    font-family: "Kaushan Script", cursive; 
+    /* background-color: #ba432e; */
+    background-color:  #008B47;
+}
+
+
+/* ///////////////////////////////// */
+::-webkit-scrollbar {
+    width: .9rem;
+  
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    background-clip: content-box;
+    border-radius: 2rem;
+    border: .2rem solid transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:  #008B47;
+  }
+  /* ///////////////////////////////// */
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: orangered; */
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    z-index: 99;
+}
+nav img{
+    width: 10%;
+}
+
+nav a, i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+.cntr-nav a{
+    font-weight: 600;
+    
+}
+.cntr-nav a:hover{
+    color: black;
+    
+}
+nav i{
+    font-size: 1.5vw;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0)); */
+    background-color:  #008B47;
+}
+
+.one h1{
+    font-size: 10vw;
+    
+    color: #fff;
+}
+
+#fanta{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:  #008B47;
+}
+
+.lft-two, .rght-two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.lft-two svg{
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(40deg);
+}
+
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.rght-two p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+
+/* //////////////////////////////////////// */
+.three{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color:  #008B47;
+}
+
+.lft-two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.lft-two svg{
+    margin-top: 50vh;
+    width: 100%;
+    transform: rotateX(30deg);
+}
+
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+    position: relative;
+    left: 6rem;
+}
+
+.rght-two p{
+    position: relative;
+    left: 6rem;
+    font-size: 1vw;
+    color: #fff;
+    width: 60%;
+}
+
+
+
+
+/* ///////////////// */
+.f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+  background-color:  #008B47;
+}
+.four h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 25vw;
+    height: 70vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    background-color:#1E1E1E ;
+}
+
+.card h1{
+    margin-top: 40vh;
+    font-size: 3vw;
+    color: white;
+}
+
+.card button{
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color:  #008B47;
+    padding: 1vw 2vw;
+}
+
+#cocacola{
+    top: -15%;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#co{
+    top: -15%;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+.lemon{
+    top: -30%;
+    position: absolute;
+    left: 50%;
+    width: 25vw;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+/* / */
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+  }
+  
+  .footer p{
+    color: white;
+  }
+  
+  .content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+ background-color:  #008B47;
+  }
+  
+  /* Animation */
+  
+  .parallax>use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+  }
+  
+  .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+  
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  /* --<!==== Footer End ====--> */
+
+  /* --<!==== Loader spinner Start ====--> */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* --<!==== Loader spinner End ====--> */
